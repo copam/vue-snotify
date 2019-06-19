@@ -1,5 +1,5 @@
 {
-  "name": "vue-snotify",
+  "name": "vue-snotify-copam",
   "version": "3.2.2",
   "description": "A Vue.js toast notifications",
   "scripts": {
@@ -43,24 +43,21 @@
     "notie",
     "notification-center",
     "snotify",
-    "vue-snotify",
-    "vue2-snotify",
+    "vue-snotify-copam",
+    "vue2-snotify-copam",
     "vuejs notifications",
     "vue notifications",
     "vue toater"
   ],
-  "author": {
-    "name": "artemsky",
-    "email": "mr.artemsky@gmail.com"
-  },
+  "author": "artemsky <mr.artemsky@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/artemsky/vue-snotify"
+    "url": "git+https://github.com/copam/vue-snotify.git"
   },
   "homepage": "https://artemsky.github.io/vue-snotify",
   "license": "MIT",
   "bugs": {
-    "url": "https://artemsky.github.io/vue-snotify/issues"
+    "url": "git+https://github.com/copam/vue-snotify/issues"
   },
   "engines": {
     "node": ">= 8.0.0",
@@ -162,5 +159,10 @@
     "rollup-plugin-typescript2": "^0.15.1",
     "rollup-plugin-vue": "^4.3.0",
     "vue-loader": "^15.2.4"
+  },
+  "main": ".postcssrc.js",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
   }
 }
